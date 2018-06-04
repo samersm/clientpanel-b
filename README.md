@@ -1,28 +1,29 @@
 # Clientpanel
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.2.
+Tutorial angular4 Project with firebase back end from Traversy Media
 
-## Development server
+## Screenshots
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![screenshot_001](https://raw.githubusercontent.com/samersm/clientpanel-b/master/readme_img/img_001.png)
 
-## Code scaffolding
+![screenshot_002](https://raw.githubusercontent.com/samersm/clientpanel-b/master/readme_img/img_002.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+![screenshot_003](https://raw.githubusercontent.com/samersm/clientpanel-b/master/readme_img/img_003.png)
 
-## Build
+![screenshot_004](https://raw.githubusercontent.com/samersm/clientpanel-b/master/readme_img/img_004.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+![screenshot_005](https://raw.githubusercontent.com/samersm/clientpanel-b/master/readme_img/img_005.png)
 
-## Running unit tests
+![screenshot_006](https://raw.githubusercontent.com/samersm/clientpanel-b/master/readme_img/img_006.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![screenshot_007](https://raw.githubusercontent.com/samersm/clientpanel-b/master/readme_img/img_007.png)
 
-## Running end-to-end tests
+![screenshot_008](https://raw.githubusercontent.com/samersm/clientpanel-b/master/readme_img/img_008.png)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+## Installation
 
-## Further help
+1- Connect the app to firebase database
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+2- Clone the repository
+`git clone git@github.com:samersm/clientpanel-b.git`
+`npm install`
