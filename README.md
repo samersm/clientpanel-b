@@ -25,5 +25,5 @@ Tutorial angular4 Project with firebase back end from Traversy Media
 1- Connect the app to firebase database
 
 2- Clone the repository
-`git clone git@github.com:samersm/clientpanel-b.git`
-`npm install`
+$ `git clone git@github.com:samersm/clientpanel-b.git`
+$ `npm install`
