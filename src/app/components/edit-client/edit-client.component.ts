@@ -3,6 +3,7 @@ import { ClientService } from '../../services/client.service';
 import { FlashMessagesService } from 'angular2-flash-messages';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 import { Client } from '../../models/Client';
+import { SettingsService } from '../../services/settings.service';
 
 @Component({
   selector: 'app-edit-client',
@@ -22,10 +23,10 @@ export class EditClientComponent implements OnInit {
   disableBalanceOnEdit:boolean = true;
 
   constructor(
-    public clientService:ClientService,
-    public router:Router,
-    public route:ActivatedRoute,
-    public flashMessagesService:FlashMessagesService
+    public clientService: ClientService,
+    public router: Router,
+    public route: ActivatedRoute,
+    public flashMessagesService: FlashMessagesService
  ) { }
 
   ngOnInit() {
@@ -36,7 +37,7 @@ export class EditClientComponent implements OnInit {
       this.client = client;
     });
   }
-  
+
   onSubmit({value, valid}:{value:Client, valid:boolean}){
     if(!valid){
       this.flashMessagesService.show('Please fill in all fields', {cssClass:'alert-danger', timeout: 4000});
